@@ -1,0 +1,115 @@
+.order_user_info {padding: 15px; position: relative; margin-bottom: 10px; }
+.icon_rnd {position: absolute; right: 0; top: 0; padding: 15px;}
+.icon_rnd i {background-color: #fff; padding: 13px; border-radius: 50%; font-size: 18px;}
+
+.new_orders {background-color: #62a3e0;}
+.new_orders i {color: #62a3e0;}
+.pending_orders {background-color: #19d895;}
+.pending_orders i {color: #19d895;}
+.total_sales {background-color: #dc74f4;}
+.total_sales i {color: #dc74f4;}
+.new_users {background-color: #ffaf00;}
+.new_users i {color: #ffaf00;}
+.dbl_input {position: relative;}
+.inside_input {position: absolute; right: 0; top: 0;}
+.color_input {padding: 0 1px !important;  cursor: pointer;}
+
+.clockBg {background-color: #fff; border-radius: 5px; width: 100%; Height: 100%; position: relative;}
+.webina_clock {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%;}
+.clock {width: 150px; height: 150px; background: -webkit-radial-gradient(#3b3b3b, #000);
+    background: radial-gradient(#2E3F50, #0E1B29); box-shadow: inset 0px 0px 30px #131313, 0px 2px 18px rgba(0,0,0,0.5); border: 6px solid #172839; border-radius: 106px; margin: auto; position: relative;}
+
+.hour-hand {width: 4px; height: 33%; background: #fff; box-shadow: 0px 0px 7px #000; position: absolute;top: 50%; left: 50%; transform: translate(-50%,-100%);}
+
+.minute-hand {width: 4px; height: 40%; background: #fff; box-shadow: 0px 0px 4px #000; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-100%);}
+
+.second-hand {width: 2px; height: 40%; background: #bbb; box-shadow: 0px 0px 7px #000; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-100%);}
+
+.pin {width: 10px; height: 10px; background: #222; border-radius: 10px; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+
+.hour-hand, .minute-hand, .second-hand {-webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; -o-transform-origin: 50% 100%; -ms-transform-origin: 50% 100%; transform-origin: 50% 100%;}
+
+
+._wtCounterBox {height: 100%; width: 100%; transition: width 0.5s; text-align: center; padding: 24px 15px 20px; box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;}
+._wtCounterBox i {color: #fff;}
+._wtCounterBox p {font-size: 16px; color: #fff; margin: 3px 0;}
+._wtCounterBox h4 {color: #fff; font-size: 28px; font-weight: 500; margin: 0;}
+
+/*/MAP CSS/*/
+._wtMap {height: 400px; width: 100%; transition: width 0.5s; padding: 0;}
+._wtmapDiv {height: 100%; width: auto;}
+.mapTable thead {background-color: #f1f5f7; border-bottom: 1px solid #999;}
+.mapTable tr th:first-child, .mapTable tr td:first-child {padding-left: 20px !important;}
+.weatherBox {text-align: center; width: 100%; transition: width 0.5s; height: 100%; padding: 24px;
+    margin: 0 auto; background-color: #fff; border-radius: 4px; border: 1px solid rgba(34,36,38,.15); position: relative; position: relative;}
+.googleMap {width: 100%; transition: width 0.5s; height: 100%; background-color: #fff;}
+.googleMap iframe {height: 100%; width: 100%; transition: width 0.5s; padding: 15px;}
+
+.weatherBox.hasBg:before {content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; transition: width 0.5s; height: ; background-image: url('https://getbootstrapadmin.com/remark/global/photos/city-5-960x640.jpg'); background-repeat: no-repeat; background-size: cover; opacity: 0.4;}
+#temp {font-size: 2em !important; margin: 0;}
+#icon img {vertical-align: sub;}
+.current {padding: 0 1em 10px 1em; margin-bottom: -10px; font-weight: bold;}
+#city, #status {font-size: 1.25em;}
+
+/*/TABLE/*/
+.widget {background: #fff none repeat scroll 0 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; display: inline-block; position: relative; -webkit-box-shadow: 0 3px 15px 0 rgb(0 0 0 / 10%); -moz-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1); -ms-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1); -o-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 3px 15px 0 rgb(0 0 0 / 10%); width: 100%; transition: width 0.5s;}
+.project-title > a {display: inline-block; margin-right: 11px; position: relative; text-transform: capitalize; font-size: 12px; color: #999;}
+.project-title > a::before {content: "/"; position: absolute; right: -10px; top: 0;}
+.widget-title.no-margin {margin-bottom: 0;}
+.widget-title {border-bottom: 1px solid #f1f1f1; float: left; padding: 14px 25px; margin-bottom: 20px; position: relative; width: 100%; transition: width 0.5s; z-index: 9;}
+.widget-title > h4 {float: left; text-transform: capitalize; font-weight: 400; margin-bottom: 0; position: relative; font-size: 17px;}
+.main-table .table {margin-bottom: 0; display: table;}
+.main-table .table thead {background: #f1f5f7;}
+.main-table .table thead tr th {line-height: 45px;}
+
+.main-table .table thead tr th {border-bottom: medium none; font-size: 14px; font-weight: 600; padding: 0 20px; text-transform: capitalize;}
+table tr th:first-child, table tr td:first-child {padding-left: 40px;}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {border-top: none; vertical-align: middle;}
+.main-table tbody tr {border: 1px solid #eaeaea;}
+.main-table .table tbody td {padding: 10px 20px;}
+table td {line-height: initial; padding: 24px 5px;}
+.main-table.recent-invoice .project-title > h5 {text-transform: uppercase; font-size: 12px;}
+.project-title > h5 {float: left; width: 100%; transition: width 0.5s; font-size: 14px; line-height: 22px;}
+.main-table .table tbody td span.sr {font-size: 12px;}
+.main-table.recent-invoice .priority {text-transform: uppercase;}
+
+.priority {padding-left: 17px; position: relative; text-transform: capitalize; font-size: 12px;}
+.priority.low::before {background: #37bc9b;}
+.priority.medium::before {background: #f6bb42;}
+.priority.high::before {background: #ff8684;}
+.priority::before {-webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px;
+    -o-border-radius: 2px; border-radius: 2px; content: ""; height: 10px; left: 0; position: absolute; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 10px; -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%); -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);}
+.due, .amount {font-size: 12px;}
+.owner-pic {display: inline-block; vertical-align: middle;}
+.owner-pic img {height: auto; max-width: 100%; transition: width 0.5s;}
+.owner-info {display: inline-block; overflow: hidden; padding-left: 10px; vertical-align: middle;}
+.owner-info > h6 {text-transform: uppercase;}
+.prj-team {display: inline-block; vertical-align: middle; width: 100%; transition: width 0.5s;}
+.prj-team > span {float: left; margin-right: -12px;}
+.prj-team > span img {-webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; -o-border-radius: 100%; border-radius: 100%; width: 30px; border: 2px solid #fff;}
+.widget-peding {float: left; padding: 0 25px 20px; width: 100%; transition: width 0.5s;}
+.q-comments {float: left; width: 100%; transition: width 0.5s; margin-bottom: 0; padding-left: 0; list-style: none;}
+.q-comments > li {border-bottom: 1px solid #dfdfdf; float: left; margin-bottom: 24px; padding-bottom: 22px; width: 100%; transition: width 0.5s;}
+.comenter {display: table-cell; max-width: 14%; vertical-align: top; width: 14%;}
+.comenter img {border-radius: 100%;}
+.comment-detail {display: table-cell; padding-left: 12px; vertical-align: top;}
+.comment-detail > h5 {font-size: 14px; text-transform: capitalize;}
+.comment-detail > p {line-height: 20px; margin-bottom: 15px; font-size: 14px;}
+.comment-date {display: inline-block; vertical-align: sub;}
+a.approved {background: rgba(0, 0, 0, 0) linear-gradient(-135deg, #8bb5da 0%, #3480c2 100%) repeat scroll 0 0;
+    -webkit-border-radius: 5px; -moz-border-radius: 5px;
+    -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; color: #fff; float: right; display: inline-block; font-size: 10px; margin-left: 22px; padding: 7px 18px; text-transform: uppercase; -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%); -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);}
+
+
+
+
+
+@media only screen and (max-width:991px) {
+  .main-table {width: 100%; overflow-y: hidden;}
+
+}
+
+@media only screen and (max-width:767px) {
+  
+
+}

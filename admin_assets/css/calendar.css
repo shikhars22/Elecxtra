@@ -1,0 +1,41 @@
+.calender_head {padding: 14px 10px; color: #fff; text-align: center; position: relative;}
+#setDays {display: grid; grid-template-columns: repeat(7, 1fr); border: 1px solid #eee;}
+#setDays .daysName {text-align: center; background-color: #d1ecf1; padding: 12px 5px;}
+#setDates {display: grid; grid-template-columns: repeat(7, 1fr); background-color: #fff;}
+#setDates .daysDay {text-align: center; color: #ccc; padding: 12px 5px; border: 1px solid #eee; position: relative; font-size: 12px;}
+#setDates .actDates {color: #333; border: 1px solid #eee;}
+#nextArrow {position: absolute; right: 0; top: 0; padding: 15px; cursor: pointer;}
+#prevArrow {position: absolute; left: 0; top: 0; padding: 15px; cursor: pointer;}
+#myMonth, #myYear {padding: 0 3px;}
+.gToday {background-color: #d1ecf1;}
+.bgHoliday, .pEvent {position: relative;}
+.bgHoliday::before {content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 4px; background-color: #fb4e4e;}
+.pEvent::after {content: ''; position: absolute; top: 0; right: 0; height: 100%; width: 4px; background-color: #00bcd4;}
+#setDates .daysDay:hover {border: 1px solid teal;}
+#setDates .bgHoliday span, #setDates .pEvent span {height: auto; width: max-content; z-index: 999; padding: 6px 10px; border-radius: 4px; background-color: #fdcbcb; color: #333; position: absolute; bottom: 110%; left: 50%; transform: translateX(-50%); display: none; cursor: pointer;}
+#setDates .bgHoliday span small, #setDates .pEvent span small {width: 100%; position: relative; margin: 2px 0; font-size: 13px; font-weight: 500; color: #fb4e4e;}
+#setDates .pEvent span .pEventTxt {color: #0490a2;}
+#setDates .bgHoliday:hover span, #setDates .pEvent:hover span {display: grid;}
+.calHead h6 {margin: 0; padding: 15px 10px; color: #fff; font-size: 1rem; font-weight: 400;}
+#pToday small {margin: 0 3px;}
+#pToday small:after {content: ',';}
+
+/*//////*/
+.selInput {width: 100%; border: 1px solid #ccc; padding: 5px; font-size: 14px; background-color: #f4f8ff;}
+.ehlist {max-height: 304px; overflow-y: hidden;}
+.holidayList {padding: 7px 10px 1px; border-bottom: 1px solid #ccc; border-left: 4px solid orange;}
+/*#output .holidayList {display: none;}*/
+#pEvent .markList {border-left: 6px solid #00bcd4;}
+#output .markList {border-left: 6px solid #fb4e4e;}
+.holidayList:hover {background-color: #e8e8e8;}
+.holidayList h6 {margin-bottom: 0; font-size: 14px; color: #000;}
+.holidayList small {margin-bottom: 0; font-size: 75%; top: -2px; position: relative; color: #666;}
+
+/*/SCROLL/*/
+.ehlist::-webkit-scrollbar {width: 0.5em; background-color: #999;}
+.ehlist::-webkit-scrollbar,
+.ehlist::-webkit-scrollbar-thumb {overflow:visible;}
+.ehlist::-webkit-scrollbar-thumb {border-radius: 2px; background: #345169;}
+/* MAGIC HAPPENS HERE */
+.ehlist:hover {overflow-y: auto; -webkit-transition: all 0.5s;}
+

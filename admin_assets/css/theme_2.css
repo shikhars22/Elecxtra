@@ -1,0 +1,26 @@
+body {background-color: #eaeff8; font-family: 'Ubuntu', sans-serif;}
+/*/HEADER/*/
+._wt_ThmHdr {background-color: #ff9822;}
+._wt_ThmHdr a, ._wt_ThmHdr i {color: #fff;}
+._wt_ThmHdr .admin_nav_arrow_left span {background-color: #fff;}
+._wt_ThmHdr ._wtRtInfo ul li a:hover {background-color: #ff9822;}
+
+/*/NAV/*/
+._wt_ThmNv {background-color: #233944;}
+._wt_ThmNv ._wtNvPrnt ul li a, ._wt_ThmNv ._wtNvPrnt ul li a i {color: #fff;}
+._wt_ThmNv ._wtNvPrnt ul li {border-bottom: 1px dotted #53595c;}
+
+/*/SCROLL/*/
+._wt_ThmNv ._wtNvPrnt::-webkit-scrollbar{background: #1c2d33;}
+._wt_ThmNv ._wtNvPrnt::-webkit-scrollbar,
+._wt_ThmNv ._wtNvPrnt::-webkit-scrollbar-thumb {overflow:visible;}
+._wt_ThmNv ._wtNvPrnt::-webkit-scrollbar-thumb {background: #70777994;}
+
+/*/BODY/*/
+._wtThmSec {background-color: transparent;}
+
+/*/Calender/*/
+#datePicker .calendar .ui.table tr td, .ui.calendar .ui.table tr th {padding: 15px 10px;}
+#datePicker .calendar .ui.table tr td.today {font-weight: 700; background-color: #c6cacc40;}
+#datePicker .calendar table thead tr:first-child th {background-color: #ffa339; color: #fff;}
+#datePicker .calendar table thead tr:nth-child(2) th {background-color: #c6cacc40; padding: 10px 0;}
